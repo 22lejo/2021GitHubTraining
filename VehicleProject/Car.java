@@ -1,4 +1,4 @@
-public class Car extends Vehicle //General class for all cars. Also inherits the fields, constructors, and methods from the Vehicle class (the "extends Vehicle" is responsible for this)
+public class Car extends Vehicle //General class for all cars. Also inherits the fields, constructors, and methods from the Vehicle class (the "extends Vehicle" is responsible for this).
 {
 
 	private String modelType; //String variable so it'll store a word/phrase having to do with the car's model type 
