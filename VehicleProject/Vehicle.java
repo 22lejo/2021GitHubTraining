@@ -1,7 +1,7 @@
 public class Vehicle //This is general class that'll apply to all vehicles
 {
-	private String color; //String varible so it'll store a word/phrase having to do with the car's model type
-	private int year; //int varible so it'll store a whole number having to do with year
+	private String color; //String variable so it'll store a word/phrase having to do with the car's model type
+	private int year; //int variable so it'll store a whole number having to do with year
 
 	
 	public Vehicle() //Creates a default constructor for the Vehicle class 
@@ -13,17 +13,17 @@ public class Vehicle //This is general class that'll apply to all vehicles
 	
 	public Vehicle(String color, int year) //Creates a constructor that has two parameters which are color and year  
 	{
-		this.color = color; //Sets the Vehicles color to the inputed one by the user (the "this" is what differntiates the two btw)
-		this.year = year; //Sets the Vehicles color to the inputed one by the user (the "this" is what differntiates the two btw)
+		this.color = color; //Sets the Vehicles color to the inputted one by the user (the "this" is what differentiates the two btw)
+		this.year = year; //Sets the Vehicles color to the inputted one by the user (the "this" is what differentiates the two btw)
 		
 	}
 	
-	public String getColor() //This is a method to get the color of the Vehicle (we have to do this because color is privated in the class)
+	public String getColor() //This is a method to get the color of the Vehicle (we have to do this because color is private in the class)
 	{
 		return color;
 	}
 	
-	public int getYear()// This is a method to get the year of the Vehicle (we have to do this because year is privated in the class)
+	public int getYear()// This is a method to get the year of the Vehicle (we have to do this because year is private in the class)
 	{
 		return year; 
 	}
