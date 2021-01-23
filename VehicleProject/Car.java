@@ -6,7 +6,7 @@ public class Car extends Vehicle //General class for all cars. Also inherits the
 	private double milage; //double variable so it'll store a number that can have long decimals having to do with the milage of the car 
 	private double price; //double variable so it'll store a number that can have long decimals having to do with the price of the car 
 	
-	public Car() //Creates a default constructor for the Car class 
+	public Car() //Creates a default constructor for the Car class. 
 	{
 		super(); //Calls the default constructor of the Vehicle class 
 	    modelType = "Toyota Camry"; 
