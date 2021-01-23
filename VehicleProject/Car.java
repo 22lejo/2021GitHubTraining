@@ -11,7 +11,7 @@ public class Car extends Vehicle //General class for all cars. Also inherits the
 		super(); //Calls the default constructor of the Vehicle class 
 	    modelType = "Toyota Camry"; 
 	    isStickGear = false;
-		this.milage = 30;
+		this.milage = 300;
 		this.price = 50000;
 	}
 	
