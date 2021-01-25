@@ -11,8 +11,8 @@ public class Car extends Vehicle //General class for all cars. Also inherits the
 		super(); //Calls the default constructor of the Vehicle class 
 	    modelType = "Toyota Camry"; 
 	    isStickGear = false;
-		this.milage = 30;
-		this.price = 50000;
+		milage = 30;
+		price = 50000;
 	}
 	
 	public Car(String color, int year, double milage, double price, String modelType, boolean isStickGear) //Creates a constructor that has a bunch of parameters 
