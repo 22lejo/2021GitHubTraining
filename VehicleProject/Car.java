@@ -6,13 +6,13 @@ public class Car extends Vehicle //General class for all cars. Also inherits the
 	private double milage; //double variable so it'll store a number that can have long decimals having to do with the milage of the car 
 	private double price; //double variable so it'll store a number that can have long decimals having to do with the price of the car 
 	
-	public Car() //Creates a default constructor for the Car class 
+	public Car() //Creates a default constructor for the Car class. 
 	{
 		super(); //Calls the default constructor of the Vehicle class 
 	    modelType = "Toyota Camry"; 
 	    isStickGear = false;
-		milage = 30;
-		price = 50000;
+		this.milage = 300;
+		this.price = 50000;
 	}
 	
 	public Car(String color, int year, double milage, double price, String modelType, boolean isStickGear) //Creates a constructor that has a bunch of parameters 
